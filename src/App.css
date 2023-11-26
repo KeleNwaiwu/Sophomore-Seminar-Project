@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  height: 13vh;
+}
+
+.centered-content {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  margin-right: 10px; /* Add margin for spacing between heading and image */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  width: 110px;
+  height: auto;
 }
+
+.block {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+
+h1 {
+  /* border: 5px solid white; Add a border to the hr block */
+  margin-right: 0px; /* Adjust the margin as needed */
+  /* background-color: white; */
+}
+body {
+  background:  rgb(17, 190, 188);
+  color: #3c4043;
+  
+}
+.app-container {
+  max-width: 800px; /* Adjust the max-width based on your design */
+  margin: auto; /* Center the container horizontally */
+}
+
+.header {
+  text-align: center; /* Center the header text */
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px; /* Add margin as needed */
+}
+
+/* Add any additional styling you need for your components */

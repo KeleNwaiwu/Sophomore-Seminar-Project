@@ -1,0 +1,58 @@
+.regField {
+    width: 100%;
+    background-color: #f7f7f7;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.registration-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px; /* Adjust the max-width based on your design */
+    margin: auto; /* Center the container horizontally */
+  }
+  
+  .form-container {
+    flex-grow: 1; /* Allow the form to grow and take available space */
+  }
+  
+  .illustration-container {
+    flex-shrink: 0; /* Do not allow the image to shrink */
+  }
+.submitBtn {
+    width: 100%;
+    background: rgb(17, 190, 188);
+    border: 0;
+    color: #fff;
+    padding: 15px;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.underLine {
+    text-align: center;
+    margin: 7px 0 0 0;
+    display: block;
+}
+
+.linkBtn {
+    border: 0;
+    background-color: unset;
+    text-decoration: underline;
+    color: #3c4043;
+    padding: 5px;
+    margin: 0;
+}
+
+.linkBtn:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.linkBtn:focus,
+.submitBtn:focus{
+    outline: none;
+}
