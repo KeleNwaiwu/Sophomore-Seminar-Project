@@ -46,7 +46,7 @@ class Login extends Component {
                         name="password"
                         type="password"
                     />
-                    <input className="submitBtn" type="submit" onClick={this.login} value="ENTER" />
+                    <input className="submitBtn" type="submit" onClick={this.login} value="LOG IN" />
                 </form>
             </>
         );
